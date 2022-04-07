@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1EA71F276B32E6009B3798 /* Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EA71E276B32E6009B3798 /* Editor.swift */; };
+		7B1EA721276B39A1009B3798 /* LabelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EA720276B39A1009B3798 /* LabelList.swift */; };
+		7B572E3F2763B55D00EFFCBA /* Empty_msg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B572E3E2763B55D00EFFCBA /* Empty_msg.swift */; };
+		7B572E4327675E7000EFFCBA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B572E4227675E7000EFFCBA /* ImagePicker.swift */; };
+		7B572E472769FACE00EFFCBA /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B572E462769FACE00EFFCBA /* Page.swift */; };
+		7B9D2FEF2762592400AE4F95 /* TextRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D2FEE2762592400AE4F95 /* TextRecognitionApp.swift */; };
+		7B9D2FF12762592400AE4F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D2FF02762592400AE4F95 /* ContentView.swift */; };
+		7B9D2FF32762592700AE4F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9D2FF22762592700AE4F95 /* Assets.xcassets */; };
+		7B9D2FF62762592700AE4F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9D2FF52762592700AE4F95 /* Preview Assets.xcassets */; };
+		7B9D2FFD2762655900AE4F95 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D2FFC2762655900AE4F95 /* ScanData.swift */; };
+		7B9D2FFF27626B2500AE4F95 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D2FFE27626B2500AE4F95 /* ScannerView.swift */; };
+		7B9D300127626B5900AE4F95 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D300027626B5900AE4F95 /* TextRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B1EA71E276B32E6009B3798 /* Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor.swift; sourceTree = "<group>"; };
+		7B1EA720276B39A1009B3798 /* LabelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelList.swift; sourceTree = "<group>"; };
+		7B572E3E2763B55D00EFFCBA /* Empty_msg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_msg.swift; sourceTree = "<group>"; };
+		7B572E4227675E7000EFFCBA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7B572E462769FACE00EFFCBA /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7B9D2FEB2762592400AE4F95 /* TextRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9D2FEE2762592400AE4F95 /* TextRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionApp.swift; sourceTree = "<group>"; };
+		7B9D2FF02762592400AE4F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B9D2FF22762592700AE4F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B9D2FF52762592700AE4F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B9D2FFC2762655900AE4F95 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		7B9D2FFE27626B2500AE4F95 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		7B9D300027626B5900AE4F95 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		7B9D300227626F8100AE4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B9D2FE82762592400AE4F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9D2FE22762592400AE4F95 = {
+			isa = PBXGroup;
+			children = (
+				7B9D2FED2762592400AE4F95 /* TextRecognition */,
+				7B9D2FEC2762592400AE4F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B9D2FEC2762592400AE4F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9D2FEB2762592400AE4F95 /* TextRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B9D2FED2762592400AE4F95 /* TextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				7B9D300227626F8100AE4F95 /* Info.plist */,
+				7B9D2FEE2762592400AE4F95 /* TextRecognitionApp.swift */,
+				7B9D2FF02762592400AE4F95 /* ContentView.swift */,
+				7B1EA720276B39A1009B3798 /* LabelList.swift */,
+				7B1EA71E276B32E6009B3798 /* Editor.swift */,
+				7B572E462769FACE00EFFCBA /* Page.swift */,
+				7B572E3E2763B55D00EFFCBA /* Empty_msg.swift */,
+				7B9D2FFC2762655900AE4F95 /* ScanData.swift */,
+				7B9D2FFE27626B2500AE4F95 /* ScannerView.swift */,
+				7B9D300027626B5900AE4F95 /* TextRecognizer.swift */,
+				7B572E4227675E7000EFFCBA /* ImagePicker.swift */,
+				7B9D2FF22762592700AE4F95 /* Assets.xcassets */,
+				7B9D2FF42762592700AE4F95 /* Preview Content */,
+			);
+			path = TextRecognition;
+			sourceTree = "<group>";
+		};
+		7B9D2FF42762592700AE4F95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B9D2FF52762592700AE4F95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B9D2FEA2762592400AE4F95 /* TextRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9D2FF92762592700AE4F95 /* Build configuration list for PBXNativeTarget "TextRecognition" */;
+			buildPhases = (
+				7B9D2FE72762592400AE4F95 /* Sources */,
+				7B9D2FE82762592400AE4F95 /* Frameworks */,
+				7B9D2FE92762592400AE4F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextRecognition;
+			productName = TextRecognition;
+			productReference = 7B9D2FEB2762592400AE4F95 /* TextRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9D2FE32762592400AE4F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7B9D2FEA2762592400AE4F95 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 7B9D2FE62762592400AE4F95 /* Build configuration list for PBXProject "TextRecognition" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B9D2FE22762592400AE4F95;
+			productRefGroup = 7B9D2FEC2762592400AE4F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B9D2FEA2762592400AE4F95 /* TextRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B9D2FE92762592400AE4F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9D2FF62762592700AE4F95 /* Preview Assets.xcassets in Resources */,
+				7B9D2FF32762592700AE4F95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B9D2FE72762592400AE4F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9D2FF12762592400AE4F95 /* ContentView.swift in Sources */,
+				7B9D2FFF27626B2500AE4F95 /* ScannerView.swift in Sources */,
+				7B572E472769FACE00EFFCBA /* Page.swift in Sources */,
+				7B9D300127626B5900AE4F95 /* TextRecognizer.swift in Sources */,
+				7B1EA71F276B32E6009B3798 /* Editor.swift in Sources */,
+				7B572E4327675E7000EFFCBA /* ImagePicker.swift in Sources */,
+				7B572E3F2763B55D00EFFCBA /* Empty_msg.swift in Sources */,
+				7B9D2FEF2762592400AE4F95 /* TextRecognitionApp.swift in Sources */,
+				7B1EA721276B39A1009B3798 /* LabelList.swift in Sources */,
+				7B9D2FFD2762655900AE4F95 /* ScanData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B9D2FF72762592700AE4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B9D2FF82762592700AE4F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B9D2FFA2762592700AE4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = C4MU45D889;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextRecognition/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = TextRecognition;
+				INFOPLIST_KEY_NSCameraUsageDescription = TextRecognition;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelloambrosio.TextRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B9D2FFB2762592700AE4F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = C4MU45D889;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextRecognition/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = TextRecognition;
+				INFOPLIST_KEY_NSCameraUsageDescription = TextRecognition;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelloambrosio.TextRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B9D2FE62762592400AE4F95 /* Build configuration list for PBXProject "TextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9D2FF72762592700AE4F95 /* Debug */,
+				7B9D2FF82762592700AE4F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B9D2FF92762592700AE4F95 /* Build configuration list for PBXNativeTarget "TextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9D2FFA2762592700AE4F95 /* Debug */,
+				7B9D2FFB2762592700AE4F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9D2FE32762592400AE4F95 /* Project object */;
+}
